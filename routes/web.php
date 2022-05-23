@@ -18,6 +18,6 @@ Route::get('/', function () {
 });
 
 Route::group(['prefix'=>'admin'],function(){
-    Route::get('Panel-Administrativo',[indexController::class, 'index'])->name('dashboard1');
+    Route::get('Panel-Administrativo',[indexController::class, 'index'])->name('dashboard');
 });
 
