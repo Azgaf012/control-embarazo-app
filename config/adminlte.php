@@ -236,16 +236,17 @@ return [
             'text' => 'blog',
             'url'  => 'admin/blog',
             'can'  => 'manage-blog',
+            
         ],
         [
             'text'        => 'dashboard',
-            'url'         => 'admin/pages',
-            'icon'        => 'far fa-fw fa-file',
+            'url'         => 'admin/Panel-Administrativo',
+            'icon'        => 'fas fa-fw fa-home',
         ],
         ['header' => 'account_settings'],
         [
             'text' => 'profile',
-            'url'  => 'admin/settings',
+            'url'  => 'admin/Informacion-personal',
             'icon' => 'fas fa-fw fa-user',
         ],
         [

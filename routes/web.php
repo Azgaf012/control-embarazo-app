@@ -2,6 +2,8 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\admin\indexController;
+use App\Http\Controllers\admin\user\InformationPersonalController;
+
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -19,5 +21,6 @@ Route::get('/', function () {
 
 Route::group(['prefix'=>'admin'],function(){
     Route::get('Panel-Administrativo',[indexController::class, 'index'])->name('dashboard');
+    Route::get('Informacion-personal',[InformationPersonalController::class, 'index'])->name('informationPersonal');
 });
 
