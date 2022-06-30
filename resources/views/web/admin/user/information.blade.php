@@ -86,21 +86,6 @@
                             </select>
                         </div>
 
-                         <!-- Phone Number -->
-                         <div class="input-group col-lg-12 mb-4">
-                            <div class="input-group-prepend">
-                                <span class="input-group-text bg-white px-4 border-md border-right-0">
-                                    <i class="fa fa-phone-square text-muted"></i>
-                                </span>
-                            </div>
-                            <select id="countryCode" name="countryCode" style="max-width: 80px"
-                                class="custom-select form-control bg-white border-left-0 border-md h-100 font-weight-bold text-muted">
-                                <option value="">+51</option>
-                            </select>
-                            <input id="phoneNumber" type="tel" name="phone" placeholder="Número de telefono"
-                                class="form-control bg-white border-md border-left-0 pl-3">
-                        </div>
-
                         <!-- Password Confirmation -->
                         <div class="input-group col-lg-6 mb-4">
                             <div class="input-group-prepend">
