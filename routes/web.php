@@ -19,6 +19,10 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+Route::get('/post', function () {
+    return view('web.blog.post');
+})->name('post');
+
 Route::group(['prefix'=>'admin'],function(){
     Route::get('Panel-Administrativo',[indexController::class, 'index'])->name('dashboard');
     Route::get('Informacion-personal',[InformationPersonalController::class, 'index'])->name('informationPersonal');

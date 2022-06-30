@@ -159,11 +159,11 @@
                                     continue whatever happens.
                                 </p>
                                 <div class="text-center mt-6">
-                                    <button
-                                        class="bg-gray-900 text-white active:bg-gray-700 text-sm font-bold uppercase px-6 py-3 rounded shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1"
-                                        type="button" style="transition: all 0.15s ease 0s;">
+                                    <a class="bg-gray-900 text-white active:bg-gray-700 text-sm font-bold uppercase px-6 py-3 rounded shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1"
+                                        type="button" style="transition: all 0.15s ease 0s;"
+                                        href="{{ route('post') }}">
                                         Leer más...
-                                    </button>
+                                    </a>
                                 </div>
                             </blockquote>
                         </div>
@@ -189,14 +189,14 @@
                                     continue whatever happens.
                                 </p>
                                 <div class="text-center mt-6">
-                                    <button
+                                    <a
                                         class="bg-gray-900 text-white active:bg-gray-700 text-sm font-bold uppercase px-6 py-3 rounded shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1"
-                                        type="button" style="transition: all 0.15s ease 0s;">
+                                        type="button" style="transition: all 0.15s ease 0s;" href="{{ route('post') }}">
                                         Leer más...
-                                    </button>
+                                </a>
                                 </div>
                             </blockquote>
-                            
+
                         </div>
                     </div>
                     <div class="lg:pt-12 pt-6 w-full md:w-4/12 px-4 text-center">
@@ -220,11 +220,11 @@
                                     continue whatever happens.
                                 </p>
                                 <div class="text-center mt-6">
-                                    <button
+                                    <a
                                         class="bg-gray-900 text-white active:bg-gray-700 text-sm font-bold uppercase px-6 py-3 rounded shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1"
-                                        type="button" style="transition: all 0.15s ease 0s;">
+                                        type="button" style="transition: all 0.15s ease 0s;" href="{{ route('post') }}">
                                         Leer más...
-                                    </button>
+                                </a>
                                 </div>
                             </blockquote>
                         </div>
@@ -233,7 +233,7 @@
                         <div
                             class="relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg bg-pink-600">
                             <img alt="..." src="{{ URL('img/post-4.jpg') }}"
-                                class="w-full align-middle rounded-t-lg" />
+                                class="w-full align-middle rounded-t-lg object-cover" />
                             <blockquote class="relative p-8 mb-4">
                                 <svg preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg"
                                     viewBox="0 0 583 95" class="absolute left-0 w-full block"
@@ -250,11 +250,11 @@
                                     continue whatever happens.
                                 </p>
                                 <div class="text-center mt-6">
-                                    <button
+                                    <a
                                         class="bg-gray-900 text-white active:bg-gray-700 text-sm font-bold uppercase px-6 py-3 rounded shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1"
-                                        type="button" style="transition: all 0.15s ease 0s;">
+                                        type="button" style="transition: all 0.15s ease 0s;" href="{{ route('post') }}">
                                         Leer más...
-                                    </button>
+                                </a>
                                 </div>
                             </blockquote>
                         </div>
@@ -263,7 +263,7 @@
                         <div
                             class="relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg bg-pink-600">
                             <img alt="..." src="{{ URL('img/post-5.jpg') }}"
-                                class="w-full align-middle rounded-t-lg" />
+                                class="w-full align-middle rounded-t-lg object-cover" />
                             <blockquote class="relative p-8 mb-4">
                                 <svg preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg"
                                     viewBox="0 0 583 95" class="absolute left-0 w-full block"
@@ -280,11 +280,11 @@
                                     continue whatever happens.
                                 </p>
                                 <div class="text-center mt-6">
-                                    <button
+                                    <a
                                         class="bg-gray-900 text-white active:bg-gray-700 text-sm font-bold uppercase px-6 py-3 rounded shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1"
-                                        type="button" style="transition: all 0.15s ease 0s;">
+                                        type="button" style="transition: all 0.15s ease 0s;" href="{{ route('post') }}">
                                         Leer más...
-                                    </button>
+                                </a>
                                 </div>
                             </blockquote>
                         </div>
@@ -293,7 +293,7 @@
                         <div
                             class="relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg bg-pink-600">
                             <img alt="..." src="{{ URL('img/post-6.jpg') }}"
-                                class="w-full align-middle rounded-t-lg" />
+                                class="w-full align-middle rounded-t-lg object-cover" />
                             <blockquote class="relative p-8 mb-4">
                                 <svg preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg"
                                     viewBox="0 0 583 95" class="absolute left-0 w-full block"
@@ -310,11 +310,11 @@
                                     continue whatever happens.
                                 </p>
                                 <div class="text-center mt-6">
-                                    <button
+                                    <a
                                         class="bg-gray-900 text-white active:bg-gray-700 text-sm font-bold uppercase px-6 py-3 rounded shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1"
-                                        type="button" style="transition: all 0.15s ease 0s;">
+                                        type="button" style="transition: all 0.15s ease 0s;" href="{{ route('post') }}">
                                         Leer más...
-                                    </button>
+                                </a>
                                 </div>
                             </blockquote>
                         </div>
