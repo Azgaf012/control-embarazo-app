@@ -11,8 +11,7 @@
         <div class="row py-5 mt-4 align-items-center bg-white p-4 s">
             <!-- For Demo Purpose -->
             <div class="col-md-5 pr-lg-5 mb-5 mb-md-0">
-                <img src="{{ URL("img/mujer.jpg") }}" alt=""
-                    class="img-fluid mb-3 d-none d-md-block">
+                <img src="{{ URL('img/mujer.jpg') }}" alt="" class="img-fluid mb-3 d-none d-md-block">
                 <h1>Disfruta de esta etapa</h1>
                 <p class="font-italic text-muted mb-0">Actualiza tu información personal para estar conectados.</p>
             </div>
