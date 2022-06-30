@@ -138,40 +138,187 @@
                 </svg>
             </div>
             <div class="container mx-auto px-4">
-                <div class="items-center flex flex-wrap">
-                    <div class="w-full md:w-4/12 px-4 mr-auto ml-auto">
+                <div class="flex flex-wrap">
+                    <div class="lg:pt-12 pt-6 w-full md:w-4/12 px-4 text-center">
                         <div
-                          class="relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg bg-pink-600"
-                        >
-                          <img
-                            alt="..."
-                            src="./assets/img/section1.jpeg"
-                            class="w-full align-middle rounded-t-lg"
-                          />
-                          <blockquote class="relative p-8 mb-4">
-                            <svg
-                              preserveAspectRatio="none"
-                              xmlns="http://www.w3.org/2000/svg"
-                              viewBox="0 0 583 95"
-                              class="absolute left-0 w-full block"
-                              style="height: 95px; top: -94px;"
-                            >
-                              <polygon
-                                points="-30,95 583,95 583,65"
-                                class="text-pink-600 fill-current"
-                              ></polygon>
-                            </svg>
-                            <h4 class="text-xl font-bold text-white">
-                              Top Notch Services
-                            </h4>
-                            <p class="text-md font-light mt-2 text-white">
-                              The Arctic Ocean freezes every winter and much of the
-                              sea-ice then thaws every summer, and that process will
-                              continue whatever happens.
-                            </p>
-                          </blockquote>
+                            class="relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg bg-pink-600">
+                            <img alt="..." src="{{ URL('img/post-1.jpg') }}"
+                                class="w-full align-middle rounded-t-lg" />
+                            <blockquote class="relative p-8 mb-4">
+                                <svg preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 583 95"
+                                    class="absolute left-0 w-full block" style="height: 95px; top: -94px;">
+                                    <polygon points="-30,95 583,95 583,65" class="text-pink-600 fill-current">
+                                    </polygon>
+                                </svg>
+                                <h4 class="text-xl font-bold text-white">
+                                    Top Notch Services
+                                </h4>
+                                <p class="text-md font-light mt-2 text-white">
+                                    The Arctic Ocean freezes every winter and much of the
+                                    sea-ice then thaws every summer, and that process will
+                                    continue whatever happens.
+                                </p>
+                                <div class="text-center mt-6">
+                                    <button
+                                        class="bg-gray-900 text-white active:bg-gray-700 text-sm font-bold uppercase px-6 py-3 rounded shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1"
+                                        type="button" style="transition: all 0.15s ease 0s;">
+                                        Leer más...
+                                    </button>
+                                </div>
+                            </blockquote>
                         </div>
-                      </div>
+                    </div>
+                    <div class="lg:pt-12 pt-6 w-full md:w-4/12 px-4 text-center">
+                        <div
+                            class="relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg bg-pink-600">
+                            <img alt="..." src="{{ URL('img/post-2.jpg') }}"
+                                class="w-full align-middle rounded-t-lg max-h-20 min-h-20" />
+                            <blockquote class="relative p-8 mb-4">
+                                <svg preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg"
+                                    viewBox="0 0 583 95" class="absolute left-0 w-full block"
+                                    style="height: 95px; top: -94px;">
+                                    <polygon points="-30,95 583,95 583,65" class="text-pink-600 fill-current">
+                                    </polygon>
+                                </svg>
+                                <h4 class="text-xl font-bold text-white">
+                                    Top Notch Services
+                                </h4>
+                                <p class="text-md font-light mt-2 text-white">
+                                    The Arctic Ocean freezes every winter and much of the
+                                    sea-ice then thaws every summer, and that process will
+                                    continue whatever happens.
+                                </p>
+                                <div class="text-center mt-6">
+                                    <button
+                                        class="bg-gray-900 text-white active:bg-gray-700 text-sm font-bold uppercase px-6 py-3 rounded shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1"
+                                        type="button" style="transition: all 0.15s ease 0s;">
+                                        Leer más...
+                                    </button>
+                                </div>
+                            </blockquote>
+                            
+                        </div>
+                    </div>
+                    <div class="lg:pt-12 pt-6 w-full md:w-4/12 px-4 text-center">
+                        <div
+                            class="relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg bg-pink-600">
+                            <img alt="..." src="{{ URL('img/post-3.jpg') }}"
+                                class="w-full align-middle rounded-t-lg max-h-20" />
+                            <blockquote class="relative p-8 mb-4">
+                                <svg preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg"
+                                    viewBox="0 0 583 95" class="absolute left-0 w-full block"
+                                    style="height: 95px; top: -94px;">
+                                    <polygon points="-30,95 583,95 583,65" class="text-pink-600 fill-current">
+                                    </polygon>
+                                </svg>
+                                <h4 class="text-xl font-bold text-white">
+                                    Top Notch Services
+                                </h4>
+                                <p class="text-md font-light mt-2 text-white">
+                                    The Arctic Ocean freezes every winter and much of the
+                                    sea-ice then thaws every summer, and that process will
+                                    continue whatever happens.
+                                </p>
+                                <div class="text-center mt-6">
+                                    <button
+                                        class="bg-gray-900 text-white active:bg-gray-700 text-sm font-bold uppercase px-6 py-3 rounded shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1"
+                                        type="button" style="transition: all 0.15s ease 0s;">
+                                        Leer más...
+                                    </button>
+                                </div>
+                            </blockquote>
+                        </div>
+                    </div>
+                    <div class="lg:pt-12 pt-6 w-full md:w-4/12 px-4 text-center">
+                        <div
+                            class="relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg bg-pink-600">
+                            <img alt="..." src="{{ URL('img/post-4.jpg') }}"
+                                class="w-full align-middle rounded-t-lg" />
+                            <blockquote class="relative p-8 mb-4">
+                                <svg preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg"
+                                    viewBox="0 0 583 95" class="absolute left-0 w-full block"
+                                    style="height: 95px; top: -94px;">
+                                    <polygon points="-30,95 583,95 583,65" class="text-pink-600 fill-current">
+                                    </polygon>
+                                </svg>
+                                <h4 class="text-xl font-bold text-white">
+                                    Top Notch Services
+                                </h4>
+                                <p class="text-md font-light mt-2 text-white">
+                                    The Arctic Ocean freezes every winter and much of the
+                                    sea-ice then thaws every summer, and that process will
+                                    continue whatever happens.
+                                </p>
+                                <div class="text-center mt-6">
+                                    <button
+                                        class="bg-gray-900 text-white active:bg-gray-700 text-sm font-bold uppercase px-6 py-3 rounded shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1"
+                                        type="button" style="transition: all 0.15s ease 0s;">
+                                        Leer más...
+                                    </button>
+                                </div>
+                            </blockquote>
+                        </div>
+                    </div>
+                    <div class="lg:pt-12 pt-6 w-full md:w-4/12 px-4 text-center">
+                        <div
+                            class="relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg bg-pink-600">
+                            <img alt="..." src="{{ URL('img/post-5.jpg') }}"
+                                class="w-full align-middle rounded-t-lg" />
+                            <blockquote class="relative p-8 mb-4">
+                                <svg preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg"
+                                    viewBox="0 0 583 95" class="absolute left-0 w-full block"
+                                    style="height: 95px; top: -94px;">
+                                    <polygon points="-30,95 583,95 583,65" class="text-pink-600 fill-current">
+                                    </polygon>
+                                </svg>
+                                <h4 class="text-xl font-bold text-white">
+                                    Top Notch Services
+                                </h4>
+                                <p class="text-md font-light mt-2 text-white">
+                                    The Arctic Ocean freezes every winter and much of the
+                                    sea-ice then thaws every summer, and that process will
+                                    continue whatever happens.
+                                </p>
+                                <div class="text-center mt-6">
+                                    <button
+                                        class="bg-gray-900 text-white active:bg-gray-700 text-sm font-bold uppercase px-6 py-3 rounded shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1"
+                                        type="button" style="transition: all 0.15s ease 0s;">
+                                        Leer más...
+                                    </button>
+                                </div>
+                            </blockquote>
+                        </div>
+                    </div>
+                    <div class="lg:pt-12 pt-6 w-full md:w-4/12 px-4 text-center">
+                        <div
+                            class="relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg bg-pink-600">
+                            <img alt="..." src="{{ URL('img/post-6.jpg') }}"
+                                class="w-full align-middle rounded-t-lg" />
+                            <blockquote class="relative p-8 mb-4">
+                                <svg preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg"
+                                    viewBox="0 0 583 95" class="absolute left-0 w-full block"
+                                    style="height: 95px; top: -94px;">
+                                    <polygon points="-30,95 583,95 583,65" class="text-pink-600 fill-current">
+                                    </polygon>
+                                </svg>
+                                <h4 class="text-xl font-bold text-white">
+                                    Top Notch Services
+                                </h4>
+                                <p class="text-md font-light mt-2 text-white">
+                                    The Arctic Ocean freezes every winter and much of the
+                                    sea-ice then thaws every summer, and that process will
+                                    continue whatever happens.
+                                </p>
+                                <div class="text-center mt-6">
+                                    <button
+                                        class="bg-gray-900 text-white active:bg-gray-700 text-sm font-bold uppercase px-6 py-3 rounded shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1"
+                                        type="button" style="transition: all 0.15s ease 0s;">
+                                        Leer más...
+                                    </button>
+                                </div>
+                            </blockquote>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
