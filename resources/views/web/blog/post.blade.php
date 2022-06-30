@@ -81,13 +81,13 @@
                 </a>
                 <div class="bg-white flex flex-col justify-start p-6">
                     <a href="#" class="text-blue-700 text-sm font-bold uppercase pb-4">Alimentación</a>
-                    <a href="#" class="text-3xl font-bold hover:text-gray-700 pb-4">Lorem Ipsum Dolor Sit Amet
+                    <a href="#" class="text-3xl font-bold hover:text-gray-700 pb-4">La mejor dieta en el embarazo es una dieta variada y completa, con alimentos que aporten nutrientes de calidad.
                         Dolor Sit Amet</a>
                     <p href="#" class="text-sm pb-8">
-                        By <a href="#" class="font-semibold hover:text-gray-800">David Grzyb</a>, Published on
-                        April 25th, 2020
+                        By <a href="#" class="font-semibold hover:text-gray-800">David Grzyb</a>, Publicado el
+                        Junio 25th, 2022
                     </p>
-                    <h1 class="text-2xl font-bold pb-3">IAlimentación durante el embarazo</h1>
+                    <h1 class="text-2xl font-bold pb-3">Alimentación durante el embarazo</h1>
                     <p class="pb-3">Durante el embarazo, debes ser muy cuidadosa con tu alimentación ya que si es deficiente, pudieras tener una hija o hijo de bajo peso y con mayor riesgo de sufrir enfermedades o incluso de morir.</p>
                     <h1 class="text-2xl font-bold pb-3">Recomendaciones</h1>
                     <p class="pb-3">Consume verduras y frutas de temporada</p>
