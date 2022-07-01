@@ -30,15 +30,8 @@
     
     @livewire('navigation')
     <div class="min-h-screen bg-gray-100">
+        {{$slot}}
         
-        
-        <!-- Page Heading -->
-       
-
-        <!-- Page Content -->
-        <main>
-            {{$slot}}
-        </main>
         @livewire('footer')
     </div>
 

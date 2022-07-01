@@ -243,18 +243,16 @@ return [
             'url'         => 'admin/Panel-Administrativo',
             'icon'        => 'fas fa-fw fa-home',
         ],
-        ['header' => 'account_settings'],
+        ['header' => 'OPCIONES DE BLOG'],
         [
-            'text' => 'profile',
-            'url'  => 'admin/Informacion-personal',
-            'icon' => 'fas fa-fw fa-user',
+            'text' => 'Lista de post',
+            'route'  => 'admin.posts.index',
+            'icon' => 'fas fa-fw fa-clipboard',
         ],
         [
-            'text' => 'controles',
-            'url'  => 'admin/settings',
-            'icon' => 'fas fa-fw fa-lock',
-            'label'       => 3,
-            'label_color' => 'success',
+            'text' => 'Crear nuevo post',
+            'route'  => 'admin.posts.create',
+            'icon' => 'fas fa-fw fa-file',
         ]
 
     ],
@@ -411,5 +409,5 @@ return [
     |
     */
 
-    'livewire' => false,
+    'livewire' => true,
 ];

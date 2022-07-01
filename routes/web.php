@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\admin\indexController;
+use App\Http\Controllers\admin\PostController as AdminPostController;
 use App\Http\Controllers\admin\user\InformationPersonalController;
 use App\Http\Controllers\PostController;
 
@@ -26,5 +27,7 @@ Route::get('/post', function () {
 Route::group(['prefix'=>'admin'],function(){
     Route::get('Panel-Administrativo',[indexController::class, 'index'])->name('dashboard');
     Route::get('Informacion-personal',[InformationPersonalController::class, 'index'])->name('informationPersonal');
+    Route::resource('posts',AdminPostController::class)->names('admin.posts');
 });
+
 
