@@ -5,6 +5,7 @@ use App\Http\Controllers\admin\indexController;
 use App\Http\Controllers\admin\PostController as AdminPostController;
 use App\Http\Controllers\admin\user\InformationPersonalController;
 use App\Http\Controllers\PostController;
+use Illuminate\Support\Facades\Artisan;
 
 /*
 |--------------------------------------------------------------------------
@@ -30,4 +31,8 @@ Route::group(['prefix'=>'admin'],function(){
     Route::resource('posts',AdminPostController::class)->names('admin.posts');
 });
 
+
+Route::get('storage-link', function(){
+    Artisan::call('storage:link');
+});
 

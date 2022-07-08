@@ -15,7 +15,7 @@
                     <div class="lg:pt-12 pt-6 w-full md:w-4/12 px-4 text-center">
                         <div
                             class="relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg bg-pink-600">
-                            <img alt="..." src="{{ URL('img/post-1.jpg') }}"
+                            <img alt="..." src="@if($post->image){!!Storage::url($post->image->url)!!}@else{{URL(img/mujer.jpg)}}@endif"
                                 class="w-full align-middle rounded-t-lg" />
                             <blockquote class="relative p-8 mb-4">
                                 <svg preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 583 95"
@@ -24,10 +24,10 @@
                                     </polygon>
                                 </svg>
                                 <h4 class="text-xl font-bold text-white">
-                                    {{$post->name}}
+                                    {!!$post->name!!}
                                 </h4>
                                 <p class="text-md font-light mt-2 text-white">
-                                    {{$post->extract}}
+                                    {!!$post->extract!!}
                                 </p>
                                 <div class="text-center mt-6">
                                     <a class="bg-gray-900 text-white active:bg-gray-700 text-sm font-bold uppercase px-6 py-3 rounded shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1"
