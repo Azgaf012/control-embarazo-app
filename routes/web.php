@@ -6,7 +6,7 @@ use App\Http\Controllers\admin\PostController as AdminPostController;
 use App\Http\Controllers\admin\user\InformationPersonalController;
 use App\Http\Controllers\PostController;
 use Illuminate\Support\Facades\Artisan;
-use App\Http\Controllers\Admin\CategoryController as CategoryController;
+use App\Http\Controllers\Admin\CategoryController;
 use App\Http\Controllers\Admin\TagController;
 
 /*
