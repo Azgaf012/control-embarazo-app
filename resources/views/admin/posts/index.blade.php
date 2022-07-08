@@ -4,12 +4,18 @@
 
 @section('content_header')
 
-    <a class="btn btn-primary btn-sm float-right" href="{{route('admin.posts.create')}}">Nuevo post</a>
+    <a class="btn btn-primary btn-sm float-right" href="{{ route('admin.posts.create') }}">Nuevo post</a>
 
     <h1>Listado de post</h1>
 @stop
 
 @section('content')
+
+    @if (session('info'))
+        <div class="alert alert-success">
+            <strong>{{ session('info') }}</strong>
+        </div>
+    @endif
     @livewire('admin.posts-index')
 @stop
 
@@ -18,5 +24,7 @@
 @stop
 
 @section('js')
-    <script> console.log('Hi!'); </script>
+    <script>
+        console.log('Hi!');
+    </script>
 @stop

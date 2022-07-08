@@ -15,7 +15,7 @@
                     <div class="lg:pt-12 pt-6 w-full md:w-4/12 px-4 text-center">
                         <div
                             class="relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg bg-pink-600">
-                            <img alt="..." src="@if($post->image){!!Storage::url($post->image->url)!!}@else{{URL(img/mujer.jpg)}}@endif"
+                        <img alt="..." src="@if($post->image) {{Storage::url($post->image->url)}} @else img/mujer.jpg @endif"
                                 class="w-full align-middle rounded-t-lg" />
                             <blockquote class="relative p-8 mb-4">
                                 <svg preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 583 95"

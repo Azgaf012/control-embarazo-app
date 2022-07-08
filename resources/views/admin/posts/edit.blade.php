@@ -7,13 +7,80 @@
 @stop
 
 @section('content')
-    <p>Desde aquí podra llevar un control de su embarazo.</p>
+    @if (session('info'))
+        <div class="alert alert-success">
+            <strong>{{ session('info') }}</strong>
+        </div>
+    @endif
+    <div class="card">
+        <div class="card-body">
+            {!! Form::model($post, ['route' => ['admin.posts.update', $post], 'autocomplete' => 'off', 'files' => true, 'method' => 'put']) !!}
+
+            @include('admin.posts.partials.form')
+
+            {!! Form::submit('Actualizar post', ['class' => 'btn btn-primary']) !!}
+
+            {!! Form::close() !!}
+        </div>
+    </div>
 @stop
 
 @section('css')
+    <style>
+        .image-wrapper {
+            position: relative;
+            padding-bottom: 50%;
+        }
+
+        .image-wrapper img {
+            position: absolute;
+            object-fit: cover;
+            widows: 100%;
+            height: 100%;
+        }
+    </style>
     <link rel="stylesheet" href="/css/admin_custom.css">
 @stop
 
 @section('js')
-    <script> console.log('Hi!'); </script>
+    <script src="https://cdn.ckeditor.com/ckeditor5/34.2.0/classic/ckeditor.js"></script>
+
+    <script>
+        const slugify = str =>
+            str
+            .toLowerCase()
+            .trim()
+            .replace(/[^\w\s-]/g, '')
+            .replace(/[\s_-]+/g, '-')
+            .replace(/^-+|-+$/g, '');
+
+        document.getElementById('name').addEventListener('keyup', function(event) {
+            document.getElementById('slug').value = slugify(this.value)
+        });
+
+        ClassicEditor
+            .create(document.querySelector('#extract'))
+            .catch(error => {
+                console.error(error);
+            });
+
+        ClassicEditor
+            .create(document.querySelector('#body'))
+            .catch(error => {
+                console.error(error);
+            });
+
+        document.getElementById('file').addEventListener('change', cambiarImagen)
+
+        function cambiarImagen(event) {
+            let file = event.target.files[0];
+
+            var reader = new FileReader();
+            reader.onload = (event) => {
+                document.getElementById('picture').setAttribute('src', event.target.result);
+            }
+
+            reader.readAsDataURL(file);
+        }
+    </script>
 @stop

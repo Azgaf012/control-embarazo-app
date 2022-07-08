@@ -11,7 +11,7 @@ class PostController extends Controller
     {
         $posts = Post::where('status', 2)
             ->limit(10)
-            ->orderBy('created_at','desc')
+            ->latest('updated_at')
             ->get();
 
         return view('posts.index', compact('posts'));
@@ -23,7 +23,7 @@ class PostController extends Controller
         $similares = Post::where('category_id', $post->category_id)
             ->where('id', '!=', $post->id)
             ->where('status', 2)
-            ->latest('id')
+            ->latest('updated_at')
             ->take(4)
             ->get();
 
