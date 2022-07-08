@@ -20,8 +20,8 @@ return new class extends Migration
             $table->text('extract')->nullable();
             $table->longText('body')->nullable();
             $table->enum('status',[1,2])->default(1);
-            $table->foreignId('user_id')->constrained();
-            $table->foreignId('category_id')->constrained();
+            $table->foreignId('user_id')->constrained()->onDelete('cascade');
+            $table->foreignId('category_id')->constrained()->onDelete('cascade');;
             $table->timestamps();
         });
     }

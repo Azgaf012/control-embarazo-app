@@ -45,7 +45,7 @@ return [
     |
     */
 
-    'logo' => '<b>Control-Embarazo</b>',
+    'logo' => '<b>Blog-Embarazo</b>',
     'logo_img' => 'vendor/adminlte/dist/img/AdminLTELogo.png',
     'logo_img_class' => 'brand-image img-circle elevation-3',
     'logo_img_xl' => null,
@@ -242,6 +242,17 @@ return [
             'text'        => 'dashboard',
             'url'         => 'admin/Panel-Administrativo',
             'icon'        => 'fas fa-fw fa-home',
+        ],
+        ['header' => 'ADMINISTRADOR'],
+        [
+            'text' => 'Categorias',
+            'route'  => 'admin.categories.index',
+            'icon' => 'fab fa-fw fa-buffer',
+        ],
+        [
+            'text' => 'Etiquetas',
+            'route'  => 'admin.tags.index',
+            'icon' => 'far fa-fw fa-bookmark',
         ],
         ['header' => 'OPCIONES DE BLOG'],
         [
