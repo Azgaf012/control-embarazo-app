@@ -41,7 +41,7 @@ class TagController extends Controller
     {
         $request->validate([
             'name' => 'required',
-            'slug' => 'required|unique:categories'
+            'slug' => 'required|unique:tags'
         ]);
 
         $tag = Tag::create($request->all());
@@ -82,7 +82,7 @@ class TagController extends Controller
     {
         $request->validate([
             'name' => 'required',
-            'slug' => "required|unique:categories,slug,$tag->id"
+            'slug' => "required|unique:tags,slug,$tag->id"
         ]);
 
         $tag->update($request->all());
