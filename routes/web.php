@@ -38,5 +38,7 @@ Route::group(['prefix'=>'admin'],function(){
 
 Route::get('storage-link', function(){
     Artisan::call('storage:link');
+    Artisan::call('optimize:clear');
+    Artisan::call('config:cache');
 });
 
